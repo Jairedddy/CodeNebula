@@ -76,7 +76,7 @@ export function AISummaryModal({ file, open, onOpenChange }: AISummaryModalProps
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-3xl max-h-[80vh] overflow-y-auto border-glow">
+      <DialogContent className="w-[700px] h-[600px] flex flex-col border-glow">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2 text-2xl text-glow-cyan">
             <Sparkles className="w-6 h-6 text-primary" />
@@ -84,7 +84,7 @@ export function AISummaryModal({ file, open, onOpenChange }: AISummaryModalProps
           </DialogTitle>
         </DialogHeader>
 
-        <div className="space-y-6">
+        <div className="flex-1 space-y-6 overflow-y-auto pr-4">
           {/* File Info */}
           <div className="grid grid-cols-2 gap-4 p-4 bg-muted/50 rounded-lg border border-border">
             <div>
