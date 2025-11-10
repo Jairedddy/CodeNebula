@@ -1,5 +1,7 @@
 # CodeNebula - Transform your codebase into a galaxy of insights! 🌌
 
+Explore your GitHub repositories in an interactive 3D visualization at [https://codenebulaa.netlify.app/](https://codenebulaa.netlify.app/).
+
 ## 🚀 Application Overview
 
 CodeNebula is an interactive 3D visualization tool that transforms GitHub repositories into stunning "galaxy" visualizations. It empowers developers to explore codebases in an immersive, three-dimensional space, facilitating a deeper understanding of code structure, dependencies, and inter-file relationships.
